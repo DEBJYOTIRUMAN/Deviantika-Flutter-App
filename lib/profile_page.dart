@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:learning_app/login_page.dart';
+import 'package:deviantika/login_page.dart';
 import 'bottom_tabs.dart';
 import 'colors.dart' as color;
 import 'store.dart';

@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:learning_app/box_card.dart';
+import 'package:deviantika/box_card.dart';
 import 'bottom_tabs.dart';
 import 'colors.dart' as color;
 import 'package:http/http.dart' as http;

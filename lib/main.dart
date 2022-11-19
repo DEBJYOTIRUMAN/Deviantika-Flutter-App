@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:learning_app/home_page.dart';
-import 'package:learning_app/login_page.dart';
-import 'package:learning_app/store.dart';
+import 'package:deviantika/home_page.dart';
+import 'package:deviantika/login_page.dart';
+import 'package:deviantika/store.dart';
 import 'package:http/http.dart' as http;
 import 'colors.dart' as color;
 

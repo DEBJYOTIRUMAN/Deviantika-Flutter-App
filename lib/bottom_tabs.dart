@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:learning_app/home_page.dart';
-import 'package:learning_app/popular_course_page.dart';
-import 'package:learning_app/profile_page.dart';
-import 'package:learning_app/search.dart';
+import 'package:deviantika/home_page.dart';
+import 'package:deviantika/popular_course_page.dart';
+import 'package:deviantika/profile_page.dart';
+import 'package:deviantika/search.dart';
 import 'audiobook_page.dart';
 
 // ignore: must_be_immutable

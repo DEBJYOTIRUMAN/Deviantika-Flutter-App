@@ -2,9 +2,9 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:learning_app/home_page.dart';
-import 'package:learning_app/signup_page.dart';
-import 'package:learning_app/store.dart';
+import 'package:deviantika/home_page.dart';
+import 'package:deviantika/signup_page.dart';
+import 'package:deviantika/store.dart';
 import 'colors.dart' as color;
 import 'package:http/http.dart' as http;
 

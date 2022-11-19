@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:learning_app/store.dart';
+import 'package:deviantika/store.dart';
 import 'colors.dart' as color;
 import 'package:http/http.dart' as http;
 
