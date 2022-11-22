@@ -80,7 +80,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Learning App',
+      title: 'Deviantika App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         fontFamily: GoogleFonts.lato().fontFamily,
