@@ -371,7 +371,7 @@ class _AudioPlayPageState extends State<AudioPlayPage> {
         icon: const ImageIcon(AssetImage("assets/forward.png"),
             size: 15, color: Colors.black),
         onPressed: () {
-          setState(() async {
+          setState(() {
             if (isPlaying) {
               audioPlayer.pause();
               isPlaying = false;
@@ -388,8 +388,8 @@ class _AudioPlayPageState extends State<AudioPlayPage> {
               index = 0;
             }
             _position = const Duration(seconds: 0);
-            isLike = await booksData[index]["likes"]
-                .contains(box.read("user")["_id"]);
+            isLike =
+                booksData[index]["likes"].contains(box.read("user")["_id"]);
             audioPlayer.play(UrlSource(
                 "https://deviantika-t930.onrender.com/api/audiobook/${booksData[index]["audio"].split("/").last}"));
             isPlaying = true;
@@ -402,7 +402,7 @@ class _AudioPlayPageState extends State<AudioPlayPage> {
         icon: const ImageIcon(AssetImage("assets/backword.png"),
             size: 15, color: Colors.black),
         onPressed: () {
-          setState(() async {
+          setState(() {
             if (isPlaying) {
               audioPlayer.pause();
               isPlaying = false;
@@ -419,8 +419,8 @@ class _AudioPlayPageState extends State<AudioPlayPage> {
               index = booksData.length - 1;
             }
             _position = const Duration(seconds: 0);
-            isLike = await booksData[index]["likes"]
-                .contains(box.read("user")["_id"]);
+            isLike =
+                booksData[index]["likes"].contains(box.read("user")["_id"]);
             audioPlayer.play(UrlSource(
                 "https://deviantika-t930.onrender.com/api/audiobook/${booksData[index]["audio"].split("/").last}"));
             isPlaying = true;
